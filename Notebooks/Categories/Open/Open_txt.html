@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title>Open_txt</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Open_txt</title><script src="https://unpkg.com/jupyter-js-widgets@2.0.*/dist/embed.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <style type="text/css">
@@ -11871,15 +11871,16 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">ipywidgets</span> <span class="k">as</span> <span class="nn">widgets</span>
-<span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span>
+<span class="n">wdg</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span>
     <span class="n">options</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;One&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;Two&#39;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;Three&#39;</span><span class="p">:</span> <span class="mi">3</span><span class="p">},</span>
     <span class="n">value</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
-    <span class="n">description</span><span class="o">=</span><span class="s1">&#39;Number:&#39;</span><span class="p">,</span>
+    <span class="n">description</span><span class="o">=</span><span class="s1">&#39;Number:&#39;</span>
 <span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">wdg</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -11900,13 +11901,13 @@ div#notebook {
 
  
  
-<div id="ae8ea305-f6a5-4f68-852e-3544b947438a"></div>
+<div id="71a030bb-536c-4a9a-90a5-34265e8b8ad1"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#ae8ea305-f6a5-4f68-852e-3544b947438a');
+var element = $('#71a030bb-536c-4a9a-90a5-34265e8b8ad1');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "af53b3173cb7451bab29490dfd2e756c", "version_major": 2, "version_minor": 0}
+{"model_id": "1048992fb3d34cefa4d4d98250b82237"}
 </script>
 </div>
 
@@ -11959,7 +11960,7 @@ var element = $('#ae8ea305-f6a5-4f68-852e-3544b947438a');
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.core.display</span> <span class="k">import</span> <span class="n">HTML</span>
@@ -11980,7 +11981,7 @@ var element = $('#ae8ea305-f6a5-4f68-852e-3544b947438a');
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[12]:</div>
+<div class="prompt output_prompt">Out[22]:</div>
 
 
 
@@ -12358,6 +12359,10 @@ color: #FDC400 !important;
 </body>
 
  
+
+<script type="application/vnd.jupyter.widget-state+json">
+{"state": {"0787d4bc851e4d67a257d5e1dc3ac88e": {"model_module": "jupyter-js-widgets", "model_module_version": "~2.1.4", "model_name": "LayoutModel", "state": {"_model_module_version": "~2.1.4", "_view_module_version": "~2.1.4"}}, "1048992fb3d34cefa4d4d98250b82237": {"model_module": "jupyter-js-widgets", "model_module_version": "~2.1.4", "model_name": "DropdownModel", "state": {"_model_module_version": "~2.1.4", "_options_labels": ["One", "Two", "Three"], "_view_module_version": "~2.1.4", "description": "Number:", "layout": "IPY_MODEL_d61e1b935c5344e3bf2919358c3c760d", "value": "Two"}}, "24a2868ae7f543b39454c33a21c44533": {"model_module": "jupyter-js-widgets", "model_module_version": "~2.1.4", "model_name": "LayoutModel", "state": {"_model_module_version": "~2.1.4", "_view_module_version": "~2.1.4"}}, "383185f2be62406c9545b29246d2b830": {"model_module": "jupyter-js-widgets", "model_module_version": "~2.1.4", "model_name": "IntSliderModel", "state": {"_model_module_version": "~2.1.4", "_view_module_version": "~2.1.4", "layout": "IPY_MODEL_0787d4bc851e4d67a257d5e1dc3ac88e", "style": "IPY_MODEL_de5f4eb4289d46038276773e93a7bd42"}}, "3df6e475a66c40a084f84b986b955935": {"model_module": "jupyter-js-widgets", "model_module_version": "~2.1.4", "model_name": "LayoutModel", "state": {"_model_module_version": "~2.1.4", "_view_module_version": "~2.1.4"}}, "6d3dae17344a4dbdb4efae1a52d77b27": {"model_module": "jupyter-js-widgets", "model_module_version": "~2.1.4", "model_name": "DropdownModel", "state": {"_model_module_version": "~2.1.4", "_options_labels": ["One", "Two", "Three"], "_view_module_version": "~2.1.4", "description": "Number:", "layout": "IPY_MODEL_e141ce8563cb45a389576f425bbe1a48", "value": "Two"}}, "77dc9ae7fe504fe2a2e5c7b555571a4d": {"model_module": "jupyter-js-widgets", "model_module_version": "~2.1.4", "model_name": "DropdownModel", "state": {"_model_module_version": "~2.1.4", "_options_labels": ["One", "Two", "Three"], "_view_module_version": "~2.1.4", "description": "Number:", "layout": "IPY_MODEL_24a2868ae7f543b39454c33a21c44533", "value": "Two"}}, "d61e1b935c5344e3bf2919358c3c760d": {"model_module": "jupyter-js-widgets", "model_module_version": "~2.1.4", "model_name": "LayoutModel", "state": {"_model_module_version": "~2.1.4", "_view_module_version": "~2.1.4"}}, "de5f4eb4289d46038276773e93a7bd42": {"model_module": "jupyter-js-widgets", "model_module_version": "~2.1.4", "model_name": "SliderStyleModel", "state": {"_model_module_version": "~2.1.4", "_view_module_version": "~2.1.4"}}, "e141ce8563cb45a389576f425bbe1a48": {"model_module": "jupyter-js-widgets", "model_module_version": "~2.1.4", "model_name": "LayoutModel", "state": {"_model_module_version": "~2.1.4", "_view_module_version": "~2.1.4"}}, "e66b303a28614e1d9f2fb6cc7424dec3": {"model_module": "jupyter-js-widgets", "model_module_version": "~2.1.4", "model_name": "DropdownModel", "state": {"_model_module_version": "~2.1.4", "_options_labels": ["One", "Two", "Three"], "_view_module_version": "~2.1.4", "description": "Number:", "layout": "IPY_MODEL_3df6e475a66c40a084f84b986b955935", "value": "Two"}}}, "version_major": 1, "version_minor": 0}
+</script>
 
 
 </html>
