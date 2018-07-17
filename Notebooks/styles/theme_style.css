@@ -307,6 +307,19 @@ background-color: white !important;
 min-width: 0ex !important;
 }
 
+.output_wrapper{
+padding-left: 1ex !important;
+padding-top: 1ex !important;
+}
+
+.output_scroll{
+height: 100% !important;
+}
+
+.input {
+padding-left: 1ex !important;
+}
+
 /* Header Configuration Segment */
 
 .header_text{
@@ -314,36 +327,124 @@ font-size: 30px !important;
 text-align: left !important;
 }
 
-.header_image_1{
+.header_image_color_1{
 border-right: 2pt solid #302683 !important;
 }
 
-.header_image_2{
+.header_image_1{
+background: url("../../images/icons/Open.png") !important;
+background-repeat: no-repeat !important;
+background-size: 60% !important;
+background-position: center !important;
+}
+
+.header_image_1::before {
+content: url(../../images/icons/virtual_pixel.png) !important;
+}
+
+.header_image_color_2{
 border-right: 2pt solid #009EE3 !important;
 }
 
-.header_image_3{
+.header_image_2{
+background: url("../../images/icons/Acquisition.png") !important;
+background-repeat: no-repeat !important;
+background-size: 60% !important;
+background-position: center !important;
+}
+
+.header_image_2::before {
+content: url(../../images/icons/virtual_pixel.png) !important;
+}
+
+.header_image_color_3{
 border-right: 2pt solid #00893E !important;
 }
 
-.header_image_4{
+.header_image_3{
+background: url("../../images/icons/Visualise.png") !important;
+background-repeat: no-repeat !important;
+background-size: 60% !important;
+background-position: center !important;
+}
+
+.header_image_3::before {
+content: url(../../images/icons/virtual_pixel.png) !important;
+}
+
+.header_image_color_4{
 border-right: 2pt solid #94C11E !important;
 }
 
-.header_image_5{
+.header_image_4{
+background: url("../../images/icons/Process.png") !important;
+background-repeat: no-repeat !important;
+background-size: 60% !important;
+background-position: center !important;
+}
+
+.header_image_4::before {
+content: url(../../images/icons/virtual_pixel.png) !important;
+}
+
+.header_image_color_5{
 border-right: 2pt solid #FDC400 !important;
 }
 
-.header_image_6{
+.header_image_5{
+background: url("../../images/icons/Detect.png") !important;
+background-repeat: no-repeat !important;
+background-size: 60% !important;
+background-position: center !important;
+}
+
+.header_image_5::before {
+content: url(../../images/icons/virtual_pixel.png) !important;
+}
+
+.header_image_color_6{
 border-right: 2pt solid #E84D0E !important;
 }
 
-.header_image_7{
+.header_image_6{
+background: url("../../images/icons/Extract.png") !important;
+background-repeat: no-repeat !important;
+background-size: 60% !important;
+background-position: center !important;
+}
+
+.header_image_6::before {
+content: url(../../images/icons/virtual_pixel.png) !important;
+}
+
+.header_image_color_7{
 border-right: 2pt solid #CF0272 !important;
 }
 
-.header_image_8{
+.header_image_7{
+background: url("../../images/icons/Decide.png") !important;
+background-repeat: no-repeat !important;
+background-size: 60% !important;
+background-position: center !important;
+}
+
+.header_image_7::before {
+content: url(../../images/icons/virtual_pixel.png) !important;
+}
+
+.header_image_color_8{
 border-right: 2pt solid #F199C1 !important;
+}
+
+.header_image_8{
+background: url("../../images/icons/Explain.png") !important;
+background-repeat: no-repeat !important;
+background-size: 60% !important;
+background-position: center !important;
+}
+
+.header_image_8::before {
+content: url(../../images/icons/virtual_pixel.png) !important;
 }
 
 hr{
@@ -354,6 +455,61 @@ margin-bottom: 8px !important;
 
 .checked {
 color: #FDC400 !important;
+}
+
+#flex-container {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+.flex-item-tag {
+    text-align: left !important;
+    margin-left: 50px !important;	
+}
+
+/* Shield Icons Segment  */
+
+.shield_left{
+background-color: #58585A !important;
+color: white !important;
+}
+
+.shield_right{
+background-color: #302683 !important;
+color: white !important;
+opacity: 0.4 !important;
+text-align: left !important;
+white-space: nowwrap !important;
+}
+
+#diff_level {
+padding-top: 3px !important;
+}
+
+/* Step Paragraphs Segment */
+
+.steps{
+font-weight: bold !important;
+}
+
+.substeps{
+font-weight: bold !important;
+text-indent: 10px !important;
+}
+
+/* Notebook Icon Class */
+
+.file_icon{
+background: url("images/icons/Notebook.png") !important;
+background-repeat: no-repeat !important;
+background-size: 12% !important;
+background-position: center !important;
+}
+
+.file_icon::before {
+content: url(images/icons/virtual_pixel_small.png) !important;
 }
 
 <style>
